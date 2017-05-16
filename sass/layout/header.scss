@@ -1,0 +1,63 @@
+// VARIAVEIS 
+    @import "../helpers/variables";
+//MIXIN
+    @import "../helpers/mixin";
+//COMPONENTES
+    @import "../componentes/font/font.css";
+//HEAD
+    header{font-family:Arial;top:0px;position:fixed;width:100%;
+        .main{background:$CorAzulEscuro;height:40px;color:$CorAzulEscuro;
+            .row{
+                .content{
+                    .nivelk{width:100px;height:35px;font-family:'Reebok1';text-align:center;background:$CorAzulClaro;margin-right:20px;margin-top:2.5px;padding-top:5px;float:left;}
+                    .menu_bar{color:$CorZinza;padding-top:5px;width:50px;float:left;margin-left:100px;display:none;}
+                    nav{float:right;
+                        ul{list-style-type:none;
+                            li{float:left;margin-right:15px;margin-top:8px;color:$CorAmarelo;
+                                a{color:$CorAmarelo;}
+                                .blue:nth-child(1){color:$CorAzulClaro;}
+                                .blue:nth-child(2){color:$CorAzulClaro;}
+                            }
+                            li:nth-child(2){color:$CorZinza;cursor:pointer;
+                                i:nth-child(2){display:none;}
+                            }
+                        }
+                        button{@include button;@include transition;}
+                        button:hover{@include transition;background:$CorAzulClaro2;}
+                    }
+                }
+            } 
+            .menu_trop{color:$CorAzulClaro2;display:none;
+                .row{background:$CorAzulEscuro;border-top:solid 1px $CORZINZA;margin-top:-16px;
+                    .col{
+                        ul{list-style-type:none;margin-bottom:10px;margin-top:10px;
+                            li{margin-top:5px;}
+                            li:nth-child(1){color:$CorZinza;font-weight:bold;}
+                        }
+                    }
+                }
+            }
+        }
+    }
+//MEDIA BREAKPOINT GRID
+    $xs: 0;
+    $sm: 575px;
+    $md: 767px;
+    $lg: 991px;
+    $xl: 1199px;
+    @media(min-width: $xs) and (max-width: $lg){
+        header{
+            .main{
+                .content{
+                    .menu_bar{display:inline-block;}
+                    ul{
+                        li{display:none;}
+                    }
+                }
+            }
+        }
+    }
+    //@include media-breakpoint-down(xs){header{display: none;}}
+   // @include media-breakpoint-down(sm){}
+   // @include media-breakpoint-down(md){}
+   // @include media-breakpoint-down(lg){}
