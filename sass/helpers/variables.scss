@@ -1,18 +1,13 @@
 //COR
+$CorPreto:#000000;
 $CorBranco:#FFFFFF;
 $CorAzulEscuro:#052027;
 $CorAzulClaro:#22C9E7;
 $CorAzulClaro2:#0D6575;
 $CorAmarelo:#FFFF00;
 $CorRosa:#FF0066;
-$CorZinza:#CCCCCC;
+$CorCinza:#CCCCCC;
 
 //FADE-OUT
     $Opacity:0.5;
-    $CORZINZA:fade-out($CorZinza,$Opacity);
-//BREAKPOINT MAP
-    $xs: 575px;
-    $sm: 767px;
-    $md: 991px;
-    $lg: 1199px;
-
+    $CORCINZA:fade-out($CorCinza,$Opacity);

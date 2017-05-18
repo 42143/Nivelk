@@ -1,6 +1,30 @@
 @import url(../componentes/font/font.css);
-* {
-  margin: 0px;
-  padding: 0px; }
+@import url(../layout/header.css);
+* { margin: 0px; padding: 0px; }
+
+html { font-family: arial; }
+html body { background: rgba(204, 204, 204, 0.5); }
+html body .main { width: 100%; }
+html body .main .Screen { padding-top: 50px; width: 100%; }
+html body .main .screen1 .container .row .col { text-align: center; color: #000000; }
+html body .main .screen1 .container .row .col h1 { font-weight: bold; font-size: 60px; }
+html body .main .screen1 .container .row .col h3 { margin-top: 15px; }
+html body .main .screen1 .container .row .col:nth-child(1) { padding-top: 20px; padding-bottom: 20px; }
+html body .main .screen2 { background: #FF0066; color: #FFFFFF; }
+html body .main .screen2 .container .row .col .row { text-align: center; }
+html body .main .screen2 .container .row .col .row .col .tituloIcone { text-align: center; width: 90px; height: 137px; margin-top: 5px; margin-bottom: 5px; margin-left: 5px; margin-right: 5px; float: left; }
+html body .main .screen2 .container .row .col .row .col .tituloIcone .circulo { width: 90px; height: 90px; border: solid 3px #FFFFFF; border-radius: 100%; padding-top: 20px; }
+html body .main .screen2 .container .row .col .btn-outline-primary { color: #FFFFFF; border: solid 2px #FFFFFF; }
+html body .main .screen2 .container .row .col .btn-outline-primary:hover { background: #FFFFFF; color: #FF0066; }
+html body .main .screen2 .container .row .col .btn-block { margin-top: 5px; }
+
+@media (min-width: 0) and (max-width: 991px) { html { font-family: arial; }
+  html body { background: rgba(204, 204, 204, 0.5); }
+  html body .main .screen1 .container { margin-top: 40px; }
+  html body .main .screen1 .container .row .col h1 { font-size: 30px; }
+  html body .main .screen1 .container .row .col:nth-child(1) { padding-top: 0px; padding-bottom: 0px; }
+  .screen2 .container .row .newsletter { display: none; }
+  .screen2 .container .row .col .row .col .tituloIcone { width: 50px; float: left; font-size: 10px; }
+  .screen2 .container .row .col .btnServicos { margin-bottom: 10px; } }
 
 /*# sourceMappingURL=index.css.map */
