@@ -146,6 +146,117 @@
                     </div>
                 </div>
             </div>
+            <div class="Screen screen3">
+                <div class="container">
+                    <div class="row">
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="Screen screen4">
+                <div class="top">
+                    <div class="container">
+                        <div class="row"></div>
+                    </div>
+                </div>
+                <div class="container-fluid footer">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-4 nivelk">
+                                    <img src="img/logo_nivelk.png" alt="logotipo da Nivelk"/>
+                                    <div class="nivelk">NIVELK</div>
+                                </div>
+                                <div class="col-3">
+                                    <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                                    <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-5">
+                                    <form class="form-group">
+                                        <label for="Newsletter">
+                                            <i class="fa fa-list-alt fa-lg" aria-hidden="true"></i>
+                                            Recebar nosso Newsletter
+                                        </label>
+                                        <input type="email" id="Newsletter" class="form-control" aria-describedby="emailHelp" placeholder="Digite seu email"/>
+                                        <button class="btn btn-outline-primary btn-block">Enviar</button>
+                                    </form>
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="col">
+                                    <ul>
+                                        <li>IDENTIDADE VISUAL</li>
+                                        <li></li>
+                                        <li>Criação de Logotipo</li>
+                                        <li>Identidade Visual</li>
+                                        <li>Impressão</li>
+                                    </ul>
+                                </div>
+                                    <div class="col">
+                                        <ul>
+                                            <li>CRIAÇÂO DE SITE</li>
+                                            <li></li>
+                                            <li>Criação de Site</li>
+                                            <li>Loja Virtual</li>
+                                            <li>Landing Page</li>
+                                        </ul>
+                                     </div>    
+                                    <div class="col">    
+                                        <ul>
+                                            <li>MARKETING DIGITAL</li>
+                                            <li></li>
+                                            <li>MDP</li>
+                                            <li>Otimização de sites SEO</li>
+                                            <li>Links Patrocinados</li>
+                                            <li>Mídias Sociais</li>
+                                            <li>E-mail Marketing</li>
+                                        </ul>
+                                     </div>
+                                    <div class="col">    
+                                        <ul>
+                                            <li>SUPORTE</li>
+                                            <li></li>
+                                            <li>Gentão de Sites</li>
+                                        </ul>
+                                     </div> 
+                                    <div class="col">    
+                                        <ul>
+                                            <li>SISTEMAS DE GENTÂO</li>
+                                            <li></li>
+                                            <li>Sistema de Advocacia</li>
+                                            <li>Sistema de odontológico</li>
+                                            <li>Sistema para loja</li>
+                                        </ul>
+                                     </div>    
+                                    <div class="col menuMobile">    
+                                        <ul>
+                                            <li>BRIEFING</li>
+                                            <li></li>
+                                            <li>Briefing Logotipo</li>
+                                            <li>Briefing Site</li>
+                                            <li>Briefing Link Patrocinado</li>
+                                            <li>Briefing Loja Virtual</li>
+                                        </ul>
+                                     </div>
+                                </div> 
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col icones">
+                            <i class="fa fa-cc-amex fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-cc-diners-club fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-cc-visa fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-cc-paypal fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-cc-mastercard fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-credit-card-alt fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-money fa-2x" aria-hidden="true"></i>
+                            <i class="fa fa-btc fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col copy">&copy;&nbsp;nivelk.com.br.&nbsp;Todos os direitos reservados.</div>
+                    </div>
+                </div>
+            </div>
         </div>    
 		<?php require_once"header.php";?>
 	</body>

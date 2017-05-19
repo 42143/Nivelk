@@ -26,8 +26,8 @@
                                 i:nth-child(2){display:none;}
                             }
                         }
-                        button{@include button;@include transition;}
-                        button:hover{@include transition;background:$CorAzulClaro2;}
+                        button{color:$CorBranco;background:$CorAzulClaro;border-radius:0px;margin-top:0.5px;font-weight:bold;}
+                        button:hover{background:$CorAzulClaro2;}
                     }
                 }
             } 
@@ -74,7 +74,7 @@
                             ul{
                                 li{display:none;}
                             }
-                            button{width:120px;}
+                            button{font-size:13px;margin-top:2.5%;}
                         }
                     }
                 }

@@ -12,8 +12,8 @@ header .main .row .content nav ul li .blue:nth-child(1) { color: #22C9E7; }
 header .main .row .content nav ul li .blue:nth-child(2) { color: #22C9E7; }
 header .main .row .content nav ul li:nth-child(2) { color: #CCCCCC; cursor: pointer; }
 header .main .row .content nav ul li:nth-child(2) i:nth-child(2) { display: none; }
-header .main .row .content nav button { border: none; height: 40px; width: 200px; background: #22C9E7; color: #FFFFFF; cursor: pointer; transition: 2s; -webkit-transition: 2s; -moz-transition: 2s; -o-transition: 2s; -ms-transition: 2s; }
-header .main .row .content nav button:hover { transition: 2s; -webkit-transition: 2s; -moz-transition: 2s; -o-transition: 2s; -ms-transition: 2s; background: #0D6575; }
+header .main .row .content nav button { color: #FFFFFF; background: #22C9E7; border-radius: 0px; margin-top: 0.5px; font-weight: bold; }
+header .main .row .content nav button:hover { background: #0D6575; }
 header .main .menu_trop { color: #0D6575; display: none; }
 header .main .menu_trop .row { background: #052027; border-top: solid 1px rgba(204, 204, 204, 0.5); margin-top: -16px; }
 header .main .menu_trop .row .menuMobile { display: none; }
@@ -30,7 +30,7 @@ header .main .menu_trop .row .col ul li:nth-child(1) { color: #CCCCCC; font-weig
 
 @media (min-width: 0) and (max-width: 991px) { header .main .row .content .menu_bar { display: inline-block; }
   header .main .row .content nav ul li { display: none; }
-  header .main .row .content nav button { width: 120px; }
+  header .main .row .content nav button { font-size: 13px; margin-top: 2.5%; }
   header .main .menu_trop .row .menuMobile { display: block; }
   header .main .menu_trop .row .col:nth-child(3) { display: none; }
   header .main .menu_trop .row .col:nth-child(4) { display: none; }

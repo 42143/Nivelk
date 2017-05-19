@@ -19,7 +19,7 @@
                             <li><a href="http://nivelk.com.br/blog.php">Blog</a></li>
                             <li><a class="blue" href="http://nivelk.com.br/login.php">Faça login</a></li>
                             <li><a class="blue" href="http://nivelk.com.br/register.php">Cadastre-se</a></li>
-                           <button>ORÇAMENTO</button>
+                           <button class="btn">ORÇAMENTO</button>
                         </ul>
                     </nav>
             </div>    
