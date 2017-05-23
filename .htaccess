@@ -1,0 +1,3 @@
+# Não remova esta linha ou as regras do mod_rewrite e os URLs amigáveism para os motores de busca deixarão de funcionar
+RewriteBase /
+

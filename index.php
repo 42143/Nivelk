@@ -21,7 +21,7 @@
 	<body>
         <div class="main">
             <div class="Screen screen1">   
-                <div class="container intro">
+                <div class="container">
                     <div class="row">
                         <div class="col hero"><h1>RENOVE SUAS IDEIAS,<br>QUE A GENTE JUNDA.</h1></div>
                         <div class="w-100"></div>
@@ -339,7 +339,7 @@
       var hero = {
         origin   : "top",
         distance : "24px",
-        duration : 5200,
+        duration : 1500,
         scale    : 1.05,
       }
 
