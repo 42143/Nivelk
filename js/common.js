@@ -1,14 +1,14 @@
 $(function(){
 	$("li:nth-child(2)").click(function(){
-        $(".fa").toggle();
+        $(".servico").toggle();
         $(".menu_trop").toggle();
     });
     
     $(".menu_bar").click(function(){
-        $(".fa").toggle();
+        $(".servico").toggle();
         $(".menu_trop").toggle();
     });
-    
+        //
         var HeightWindow = $(window).height();
         var footer = $(".footer").height();
         var top = (HeightWindow - footer);

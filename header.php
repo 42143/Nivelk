@@ -11,8 +11,8 @@
                         <ul>
                             <li><a href="http://nivelk.com.br/index.php">Home</a></li>
                             <li>Serviços 
-                                <i class="fa fa-angle-double-down fa-lg"></i>
-                                <i class="fa fa-angle-double-up fa-lg"></i>
+                                <i class="fa fa-angle-double-down fa-lg servico"></i>
+                                <i class="fa fa-angle-double-up fa-lg servico"></i>
                             </li>
                             <li><a href="http://nivelk.com.br/portfolio.php">Portfólio</a></li>
                             <li><a href="http://nivelk.com.br/agency.php">Agência</a></li>
