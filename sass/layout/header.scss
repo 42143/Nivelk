@@ -49,9 +49,9 @@
                     }
                     .col{
                         ul{list-style-type:none;margin-bottom:10px;margin-top:10px;
-                            li{margin-top:5px;}
+                            li{margin-top:5px;cursor:pointer;}
                             li:hover{color:$CorAzulClaro;}
-                            li:nth-child(1){color:$CorCinza;font-weight:bold;}
+                            li:nth-child(1){color:$CorCinza;font-weight:bold;cursor:context-menu;}
                         }
                     }
                 }

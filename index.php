@@ -23,7 +23,7 @@
             <div class="Screen screen1">   
                 <div class="container">
                     <div class="row">
-                        <div class="col hero"><h1>RENOVE SUAS IDEIAS,<br>QUE A GENTE JUNDA.</h1></div>
+                        <div class="col hero"><h1>RENOVE SUAS IDEIAS,<br>QUE A GENTE AJUDA.</h1></div>
                         <div class="w-100"></div>
                         <div class="col hero">
                             <img class="img" src="img/icon1.png" alt="icone logotipo"/>

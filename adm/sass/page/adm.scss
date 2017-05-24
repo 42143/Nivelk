@@ -4,16 +4,27 @@ html{
         header{position:fixed;height:40px;background:$CorAzulClaro3;width:100%;}
         .container-fluid{padding-top:40px;
             .row{
-                .col-3{padding-top:20px;padding-bottom:10px;border:solid 1px $CorCinza;background:$CorCinzaClaro;padding-left:0px;padding-right:0px;
-                    .btn-outline-secondary{border-left:none;border-right:none;border-bottom:none;margin-bottom:0px;margin-top:0px;border-radius:0px;color:$CorPreto;}
-                    .right{float:right;}
+                .col-3{
+                    .row{
+                        .menu{border:solid 1px $CorCinza;background:$CorCinzaClaro;padding-left:0px;padding-right:0px;
+                            .col-3{border:none;}
+                            .col-9{
+                                input[type="text"]{margin-bottom:5px;border-right:none;border-radius:0px;}
+                            }
+                            .col{
+                                .btn-outline-secondary{border-left:none;border-right:none;border-bottom:none;margin-bottom:0px;margin-top:0px;border-radius:0px;color:$CorPreto;}
+                                .right{float:right;}
+                            }
+                        }
+                    }
                 }
+                //____________________________________________________________________________________
                 .col-9{text-align:center;padding-top:20px;
                     .btn-outline-primary{margin-top:8px;color:$CorAzulEscuro;}
                     fieldset{border:solid 1px $CORCINZA;padding:10px;margin:10px;}
                     .head{display:none;}
                 }
-            }
-        }
-    }
-}
+            }//_____________________________________row______________________________________________
+        }//____________________________________container_fluid_____________________________________________________
+    }//_______________________________________________body___________________________________________________
+}//___________________________________________________html_______________________________________________________

@@ -26,15 +26,23 @@
             <div class="row">
                 <div class="col-3">
                     <div class="row">
-                        <div class="col">
-                           
+                        <div class="col menu">
+                            <div class="row">
+                                <div class="col-3"></div>
+                                <div class="col-9">
+                                    <input type="text" class="form-control" placeholder="Pesquisa">
+                                </div>
+                                <div class="w-100"></div>
+                                <div class="col">
+                                    <button class="btn btn-outline-secondary btn-block btnHead"><i class="fa fa-key" aria-hidden="true"></i>&nbsp;Chaves<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
+                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;Painel de controle<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
+                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Artigos<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
+                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp;Pagina<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
+                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Usuarios<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <button class="btn btn-outline-secondary btn-block btnHead"><i class="fa fa-key" aria-hidden="true"></i>&nbsp;Head<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;Painel de controle<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Artigos<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp;Pagina<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Usuario<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
                 </div>
                 <div class="col-9">
                     <div class="head">
