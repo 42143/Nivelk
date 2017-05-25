@@ -16,7 +16,7 @@
                             </li>
                             <li><a href="http://nivelk.com.br/portfolio.php">Portfólio</a></li>
                             <li><a href="http://nivelk.com.br/agency.php">Agência</a></li>
-                            <li><a href="http://nivelk.com.br/blog.php">Blog</a></li>
+                            <li><a href="http://nivelkifo.esy.es">Blog</a></li>
                             <li><a class="blue" href="http://nivelk.com.br/login.php">Faça login</a></li>
                             <li><a class="blue" href="http://nivelk.com.br/register.php">Cadastre-se</a></li>
                            <button class="btn">ORÇAMENTO</button>

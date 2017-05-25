@@ -149,7 +149,7 @@
                     <div class="row">
                         <div class="col block">
                             <h1>Foco em estratégia digital</h1>
-                            <p>Especialista em planejamento estratégico e modelo de negócio usando MDP - Marketing digital de posicionamento obtendo mais visitante, leads, oportunidades e cliente para seu negócio, sendo desenvolvido junto ao cliente e o projeto tento comunicação e marketing que melhor atende as necessidades do negócio.
+                            <p>Especialista em planejamento estratégico e modelo de negócio usando MDP - Marketing digital de posicionamento obtendo mais visitante, leads, oportunidades e cliente para seu negócio, sendo desenvolvido junto ao cliente e o projeto tendo comunicação e marketing que melhor atende as necessidades do negócio.
                             <br></p>
                             <h4>Comece agora à fazer um Briefing, que é a primerira etapa para descobrir quais as necessidades do seu negócio.</h4>
                             <p>Vou estar explicando para você sobre, briefing nada mas e que um trarefa para começar colocar em pauta tudo sobre a sua empresa ou negócio até mesmo o seu produto, e nos mostrar como traçar a melhor linha de execução para elaborar métodos que irão proporcionar resultados positivos no meio digital.</p>
@@ -192,7 +192,7 @@
                         </div>
                         <div class="w-100"></div>
                         <div class="col">
-                            <button class="btn btn-outline-primary block">Faz já Briefing</button>
+                            <button class="btn btn-outline-primary block">Faça já Briefing</button>
                         </div>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                                         <center>
                                             <i class="fa fa-coffee fa-4x" aria-hidden="true"></i>
                                             <h6>Equipe qualificada</h6>
-                                            <p>A nossa equipe e bem preparada para lhe atender e mostrar o melhor do desenvolvindo do seu projeto.</p>
+                                            <p>A nossa equipe e bem preparada para lhe atender e mostrar o melhor do desenvolvimento do seu projeto.</p>
                                         </center>    
                                     </div>
                                     <div class="col block">
