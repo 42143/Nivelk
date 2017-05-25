@@ -19,7 +19,17 @@
     <body>
         <header>
             <div class="container-fluid">
-                <div class="row"></div>
+                <div class="row">
+                    <div class="col-3">Nivelk-Admistrador</div>
+                    <div class="col-5">
+                        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-4">
+                        <i class="fa fa-user-o fa-1x" aria-hidden="true"></i>
+                        <span>Aslan</span>
+                        <button class="btn btn-outline-primary">Sair</button>
+                    </div>
+                </div>
             </div>
         </header>
         <div class="container-fluid">

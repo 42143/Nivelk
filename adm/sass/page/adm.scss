@@ -1,12 +1,22 @@
 @import "../../../sass/helpers/variables";
-html{
-    body{
-        header{position:fixed;height:40px;background:$CorAzulClaro3;width:100%;}
-        .container-fluid{padding-top:40px;
+
+header{position:fixed;height:45px;background:$CorAzulClaro3;width:100%;color:$CorBranco;
+    .container-fluid{padding-bottom:0px;
+        .row{
+            .col-3{background:$CorAzulClaro4;text-align:center;padding-top:10px;}
+            .col-5{
+                i{margin-top:8px;}
+            }
+            .col-4{}
+        }
+    }        
+}
+        //_______________________________________________________________________________________________________
+        .container-fluid{
             .row{
                 .col-3{
                     .row{
-                        .menu{border:solid 1px $CorCinza;background:$CorCinzaClaro;padding-left:0px;padding-right:0px;
+                        .menu{border:solid 1px $CorCinza;background:$CorCinzaClaro;padding-left:0px;padding-right:0px;margin-top:47px;
                             .col-3{border:none;}
                             .col-9{
                                 input[type="text"]{margin-bottom:5px;border-right:none;border-radius:0px;}
@@ -26,5 +36,3 @@ html{
                 }
             }//_____________________________________row______________________________________________
         }//____________________________________container_fluid_____________________________________________________
-    }//_______________________________________________body___________________________________________________
-}//___________________________________________________html_______________________________________________________
