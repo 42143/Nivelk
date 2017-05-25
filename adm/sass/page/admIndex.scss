@@ -1,0 +1,13 @@
+@import "../../../sass/helpers/variables";
+
+.container{
+    .row{
+        .col-6{margin-top:12%;
+            .row{
+                .col{
+                    fieldset{border:solid 1px $CorCinza;padding:10px;}
+                }
+            }
+        }
+    }
+}

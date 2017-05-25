@@ -1,6 +1,6 @@
 @import "../../../sass/helpers/variables";
 
-header{position:fixed;height:45px;background:$CorAzulClaro3;width:100%;color:$CorBranco;
+header{position:fixed;height:45px;background:$CorAzulClaro3;width:100%;color:$CorBranco;top:0px;
     .container-fluid{padding-bottom:0px;
         .row{
             .col-3{background:$CorAzulClaro4;text-align:center;padding-top:10px;}

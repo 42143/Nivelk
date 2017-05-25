@@ -12,83 +12,38 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!--css-->
-        <link rel="stylesheet" href="sass/page/adm.css"/>
+        <link rel="stylesheet" href="sass/page/admIndex.css"/>
         <link rel="stylesheet" href="../sass/componentes/font-awesome-4.7.0/css/font-awesome.min.css"/>
         <script src="js/script.js"></script>
+        <title>Admistrador | Nivelk</title>
     </head>
     <body>
-        <header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-3">Nivelk-Admistrador</div>
-                    <div class="col-5">
-                        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-                    </div>
-                    <div class="col-4">
-                        <i class="fa fa-user-o fa-1x" aria-hidden="true"></i>
-                        <span>Aslan</span>
-                        <button class="btn btn-outline-primary">Sair</button>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-3"></div>
+                <div class="col-6">
                     <div class="row">
-                        <div class="col menu">
-                            <div class="row">
-                                <div class="col-3"></div>
-                                <div class="col-9">
-                                    <input type="text" class="form-control" placeholder="Pesquisa">
-                                </div>
-                                <div class="w-100"></div>
-                                <div class="col">
-                                    <button class="btn btn-outline-secondary btn-block btnHead"><i class="fa fa-key" aria-hidden="true"></i>&nbsp;Chaves<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;Painel de controle<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Artigos<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp;Pagina<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Usuarios<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                                </div>
-                            </div>
+                        <div class="col">Nivelk Administrador</div>
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <fieldset>
+                                <form class="form-group">
+                                    <label for="IdUsuario">
+                                        <i class="fa fa-user-o fa-1x" aria-hidden="true"></i>&nbsp;Usuario
+                                    </label>
+                                    <input type="text" id="IdUsuario" class="form-control" placeholder="Usuario"/>
+                                    <label id="IdSenha">
+                                        <i class="fa fa-unlock-alt fa-1x" aria-hidden="true"></i>&nbsp;Senha
+                                    </label>
+                                    <input type="password" id="IdSenha" class="form-control" placeholder="Senha"/>
+                                    <br>
+                                    <input type="submit" id="IdEnviar" class="btn btn-outline-primary btn-block"/>
+                                </form>
+                            </fieldset>
                         </div>
                     </div>
                 </div>
-                <div class="col-9">
-                    <div class="head">
-                        <div class="row">
-                            <div class="col">
-                                <h3>Palavra chave</h3>
-                                <fieldset>
-                                    <form class="form-group">
-                                        <label for="keyWordId">Coloque à palavra chave</label>
-                                        <input type="text" name="keyword" class="form-control" id="keyWordId" placeholder="palavra chave"/>
-                                        <input type="submit" class="btn btn-outline-primary btn-block" value="Adicionar palavra"/>
-                                    </form>
-                                </fieldset> 
-                                <fieldset>
-                                    <form class="form-group">
-                                        <label for="">Excluir palavra chave</label>
-                                        <select class="form-control">
-                                            <option>Seleciona à palavra</option>
-                                        </select>
-                                        <input type="submit" class="btn btn-outline-primary btn-block" value="Excluir palavra"/>
-                                    </form>
-                                </fieldset>    
-                            </div>
-                            <div class="col">
-                                <h3>Descrição</h3>
-                                <fieldset>
-                                    <form class="form-group">
-                                        <label for="">coloque à descrição</label>
-                                        <textarea class="form-control"></textarea>
-                                        <input type="submit" class="btn btn-outline-primary btn-block" value="Salvar descrição"/>
-                                    </form>
-                                </fieldset>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-3"></div>
             </div>
         </div>
     </body>
