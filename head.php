@@ -1,4 +1,5 @@
-		<meta charset="utf-8"/>
+
+        <meta charset="utf-8"/>
 		<meta http-equiv="Content-Language" content="pt-br"/>
         <meta name="viewport" content="width=device-width, user-scalable=no"/>
 	<!--CSS CDN Bootstrap-->
@@ -35,5 +36,6 @@
         <meta property="article:author" content="https://www.facebook.com/aslan.kelvingama"/>
         <meta property="article:publisher" content="https://www.facebook.com/nivelk.com.br/"/>
 	<!--ferramentas google-->
-	<!--Titulo Nivelk-->
+        <?php require_once "analyticstracking.php";?>
+	<!-- -->
 	
