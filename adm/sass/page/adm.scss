@@ -1,5 +1,7 @@
 @import "../../../sass/helpers/variables";
 
+@mixin header{text-align:left;background:$CorCinzaClaro;color:$CorAzulClaro3;font-size:25px;border:solid 1px $CorCinza;border-left:none;margin-bottom:20px;}
+
 header{position:fixed;height:45px;background:$CorAzulClaro3;width:100%;color:$CorBranco;top:0px;
     .container-fluid{padding-bottom:0px;
         .row{
@@ -7,7 +9,7 @@ header{position:fixed;height:45px;background:$CorAzulClaro3;width:100%;color:$Co
             .col-5{
                 i{margin-top:8px;}
             }
-            .col-4{}
+            .col-4{padding-top:5px;padding-left:10%;}
         }
     }        
 }
@@ -29,10 +31,15 @@ header{position:fixed;height:45px;background:$CorAzulClaro3;width:100%;color:$Co
                     }
                 }
                 //____________________________________________________________________________________
-                .col-9{text-align:center;padding-top:20px;
+                .col-9{text-align:center;padding-top:47px;
                     .btn-outline-primary{margin-top:8px;color:$CorAzulEscuro;}
                     fieldset{border:solid 1px $CORCINZA;padding:10px;margin:10px;}
-                    .head{display:none;}
+                    .chaves{display:none;
+                        .header{@include header;}
+                    }
+                    .usuario{display:none;
+                        .header{@include header;}
+                    }
                 }
             }//_____________________________________row______________________________________________
         }//____________________________________container_fluid_____________________________________________________

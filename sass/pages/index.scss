@@ -71,8 +71,8 @@
                                     .nivelk{width:100px;margin-top:60px;float:left;color:$CorAzulClaro;}
                                 }
                                 .col-3{color:$CorCinza;padding-top:60px;
-                                    i{margin-left:5px;margin-right:5px;cursor:pointer;}
-                                    i:hover{color:$CorAzulClaro;}
+                                    a{margin-left:5px;margin-right:5px;cursor:pointer;color:$CorCinza;}
+                                    a:hover{color:$CorAzulClaro;}
                                 }
                                 .col-5{
                                     label{margin-top:10px;color:$CorAmarelo;}
@@ -142,7 +142,7 @@
                                         .nivelk{display:none;}
                                     }
                                     .col-3{padding-top:auto;
-                                        i{margin-left:auto;margin-right:auto;}
+                                        a{margin-left:auto;margin-right:auto;}
                                     }
                                     .col-5{display:none;}
                                 }

@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if($_SESSION["id_adm"] == false){
+        header("location:index.php");
+    }
+    require_once "php/class/configAdm.php";
+?>
 <!doctype html>
 <html lang="br">
     <head>
@@ -30,19 +37,23 @@
                                 </div>
                                 <div class="w-100"></div>
                                 <div class="col">
-                                    <button class="btn btn-outline-secondary btn-block btnHead"><i class="fa fa-key" aria-hidden="true"></i>&nbsp;Chaves<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
+                                    <button class="btn btn-outline-secondary btn-block btnChaves"><i class="fa fa-key" aria-hidden="true"></i>&nbsp;Chaves<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
                                     <button class="btn btn-outline-secondary btn-block"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;Painel de controle<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
                                     <button class="btn btn-outline-secondary btn-block"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Artigos<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
                                     <button class="btn btn-outline-secondary btn-block"><i class="fa fa-flag" aria-hidden="true"></i>&nbsp;Pagina<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
-                                    <button class="btn btn-outline-secondary btn-block"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Usuarios<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
+                                    <button class="btn btn-outline-secondary btn-block btnUsuario"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Usuarios<i class="fa fa-angle-left right" aria-hidden="true"></i></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-9">
-                    <div class="head">
+                    <div class="chaves">
                         <div class="row">
+                            <div class="col header">
+                                <i class="fa fa-key" aria-hidden="true"></i>&nbsp;Chaves
+                            </div>
+                            <div class="w-100"></div>
                             <div class="col">
                                 <h3>Palavra chave</h3>
                                 <fieldset>
@@ -66,7 +77,7 @@
                                 <h3>Descrição</h3>
                                 <fieldset>
                                     <form class="form-group">
-                                        <label for="">coloque à descrição</label>
+                                        <label for="">Coloque à descrição</label>
                                         <textarea class="form-control"></textarea>
                                         <input type="submit" class="btn btn-outline-primary btn-block" value="Salvar descrição"/>
                                     </form>
@@ -74,20 +85,59 @@
                             </div>
                         </div>
                     </div>
+                    <div class="usuario">
+                        <div class="row">
+                            <div class="col header">
+                                <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Usuarios
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col">
+                                <h3>Excluir Administrador</h3>
+                                <fieldset>
+                                    <form class="form-group" action="excluirAdmin.php" method="post">
+                                        <label for="excluirAdmin">Selecionar o usuario para excluir</label>
+                                        <select class="form-control" name="excluirAdmin">
+                                            <option>Selecionar Administrado</option>
+                                            <?php
+                                               $check = $con->query("SELECT id_adm,usuario FROM administrado");
+                                                while ($usuarios = $check->fetch_row()){
+                                                    echo "<option value='$usuarios[0]'>".$usuarios[1]."</option>";
+                                                }
+                                            ?>
+                                        </select>
+                                        <input type="submit" value="Excluir" class="btn btn-outline-primary btn-block"/>
+                                    </form>
+                                </fieldset>
+                            </div>
+                            <div class="col">
+                                <h3>Adicionar Administrador</h3>
+                                <fieldset>
+                                    <form class="form-group" action="adicionarAdmin.php" method="post">
+                                        <label for="adicionarAdmin">Coloque usuario e senha para adiciona</label>
+                                        <input type="text" name="usuario" class="form-control" placeholder="usuario"/>
+                                            <br>
+                                        <input type="password" name="senha" class="form-control" placeholder="Senha"/>
+                                        <input type="submit" value="Adicionar" class="btn btn-outline-primary btn-block"/>
+                                    </form>
+                                </fieldset>        
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -->
                 </div>
             </div>
         </div>
         <header>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-3">Nivelk-Admistrador</div>
+                    <div class="col-3">Nivelk-Administrador</div>
                     <div class="col-5">
                         <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
                     </div>
                     <div class="col-4">
                         <i class="fa fa-user-o fa-1x" aria-hidden="true"></i>
-                        <span>Aslan</span>
-                        <button class="btn btn-outline-primary">Sair</button>
+                        <span><?php echo $_SESSION["usuario"]; ?></span>
+                        <a class="btn btn-outline-secondary" role="button" href="sairAdm.php">Sair</a>
                     </div>
                 </div>
             </div>

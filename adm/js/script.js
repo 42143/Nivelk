@@ -1,5 +1,11 @@
 $(function(){
-    $(".btnHead").click(function(){
-        $(".head").toggle();
+    $(".btnChaves").click(function(){
+        $(".chaves").toggle();
+        $(".usuario").hide();
+    });
+    
+    $(".btnUsuario").click(function(){
+        $(".chaves").hide();
+        $(".usuario").toggle();
     });
 });

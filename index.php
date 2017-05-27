@@ -242,10 +242,18 @@
                                     <div class="nivelk">NIVELK</div>
                                 </div>
                                 <div class="col-3 block">
-                                    <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-                                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-                                    <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+                                    <a href="https://www.facebook.com/nivelk.com.br/" target="_blank">
+                                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                                    </a>    
+                                    <a href="https://www.instagram.com/_nivelk/" target="_blank">
+                                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/nivelk" target="_blank">
+                                        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+                                    </a>    
                                 </div>
                                 <div class="col-5 block">
                                     <form class="form-group">

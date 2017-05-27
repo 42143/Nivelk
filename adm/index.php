@@ -27,15 +27,15 @@
                         <div class="w-100"></div>
                         <div class="col">
                             <fieldset>
-                                <form class="form-group">
+                                <form class="form-group" action="adm.class.php" method="post">
                                     <label for="IdUsuario">
                                         <i class="fa fa-user-o fa-1x" aria-hidden="true"></i>&nbsp;Usuario
                                     </label>
-                                    <input type="text" id="IdUsuario" class="form-control" placeholder="Usuario"/>
+                                    <input type="text" name="usuario" id="IdUsuario" class="form-control" placeholder="Usuario"/>
                                     <label id="IdSenha">
                                         <i class="fa fa-unlock-alt fa-1x" aria-hidden="true"></i>&nbsp;Senha
                                     </label>
-                                    <input type="password" id="IdSenha" class="form-control" placeholder="Senha"/>
+                                    <input type="password" name="senha" id="IdSenha" class="form-control" placeholder="Senha"/>
                                     <br>
                                     <input type="submit" id="IdEnviar" class="btn btn-outline-primary btn-block"/>
                                 </form>
