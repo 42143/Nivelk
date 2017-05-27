@@ -57,17 +57,23 @@
                             <div class="col">
                                 <h3>Palavra chave</h3>
                                 <fieldset>
-                                    <form class="form-group">
+                                    <form class="form-group" action="Adicionar.chaves.php" method="post">
                                         <label for="keyWordId">Coloque à palavra chave</label>
-                                        <input type="text" name="keyword" class="form-control" id="keyWordId" placeholder="palavra chave"/>
+                                        <input type="text" name="chaves" class="form-control" id="keyWordId" placeholder="palavra chave"/>
                                         <input type="submit" class="btn btn-outline-primary btn-block" value="Adicionar palavra"/>
                                     </form>
                                 </fieldset> 
                                 <fieldset>
-                                    <form class="form-group">
+                                    <form class="form-group" action="excluir.chaves.php" method="post">
                                         <label for="">Excluir palavra chave</label>
-                                        <select class="form-control">
+                                        <select class="form-control" name="excluirChave">
                                             <option>Seleciona à palavra</option>
+                                            <?php
+                                               $check = $con->query("SELECT id_chaves,chaves FROM chaves");
+                                                while ($chaves = $check->fetch_row()){
+                                                    echo "<option value='$chaves[0]'>".$chaves[1]."</option>";
+                                                }
+                                            ?>                                            
                                         </select>
                                         <input type="submit" class="btn btn-outline-primary btn-block" value="Excluir palavra"/>
                                     </form>
@@ -76,9 +82,13 @@
                             <div class="col">
                                 <h3>Descrição</h3>
                                 <fieldset>
-                                    <form class="form-group">
+                                    <form class="form-group" action="descricao.class.php" method="post">
                                         <label for="">Coloque à descrição</label>
-                                        <textarea class="form-control"></textarea>
+                                        <?php 
+                                            $descricao = $con->query("SELECT * FROM descricao");
+                                            $desc = $descricao->fetch_row();
+                                        ?>
+                                        <textarea class="form-control" name="descricao"><?php echo $desc[1];?></textarea>
                                         <input type="submit" class="btn btn-outline-primary btn-block" value="Salvar descrição"/>
                                     </form>
                                 </fieldset>

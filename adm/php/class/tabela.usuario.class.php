@@ -29,6 +29,8 @@
             
             if($check == true){
                 header("location:adm.php");
+            }else{
+                echo"<script>alert('Usuario:maxino 10 caracteres');history.back();</script>"
             }
         }
     }

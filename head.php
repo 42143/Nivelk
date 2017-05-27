@@ -1,4 +1,10 @@
-
+        <?php 
+            require_once "config.php";
+            $ch = $con->query("SELECT chaves FROM chaves");
+            $chave = $ch->fetch_row();
+            $desc = $con->query("SELECT descricao FROM descricao");
+            $descricao = $desc->fetch_row(); 
+        ?>
         <meta charset="utf-8"/>
 		<meta http-equiv="Content-Language" content="pt-br"/>
         <meta name="viewport" content="width=device-width, user-scalable=no"/>
@@ -18,8 +24,8 @@
 		<meta name="author" content="Aslan Kelvin"/>
 		<meta name="classification" content="Agência digital"/>
 		<meta name="title" content="Agência Digital | Nivelk"/>
-		<meta name="keywords" content="<?php ?>"/>
-		<meta name="description" content="<?php ?>"/>
+		<meta name="keywords" content="<?php echo $chave[0].",";?>"/>
+		<meta name="description" content="<?php echo $descricao[0];?>"/>
 		<meta name="URL" content="http://nivelk.com.br/index.php"/>
 		<meta name="language" content="pt-br"/>
 		<meta name="robots" content="index,follow"/>
