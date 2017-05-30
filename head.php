@@ -1,7 +1,6 @@
         <?php 
             require_once "config.php";
             $ch = $con->query("SELECT chaves FROM chaves");
-            $chave = $ch->fetch_row();
             $desc = $con->query("SELECT descricao FROM descricao");
             $descricao = $desc->fetch_row(); 
         ?>
@@ -24,7 +23,9 @@
 		<meta name="author" content="Aslan Kelvin"/>
 		<meta name="classification" content="Agência digital"/>
 		<meta name="title" content="Agência Digital | Nivelk"/>
-		<meta name="keywords" content="<?php echo $chave[0].",";?>"/>
+		<meta name="keywords" content="<?php while($chave = $ch->fetch_row()){
+                                           echo $chave[0].",";
+                                       }?>"/>
 		<meta name="description" content="<?php echo $descricao[0];?>"/>
 		<meta name="URL" content="http://nivelk.com.br/index.php"/>
 		<meta name="language" content="pt-br"/>
@@ -37,10 +38,11 @@
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Agência Digital | Nivelk"/>
         <meta property="og:image" content="img/logo_nivelk.png"/>
-        <meta property="og:description" content="<?php ?>"/>
+        <meta property="og:description" content="<?php echo $descricao[0];?>"/>
         <meta property="og:site_name" content="Agência digital Nivelk"/>
         <meta property="article:author" content="https://www.facebook.com/aslan.kelvingama"/>
         <meta property="article:publisher" content="https://www.facebook.com/nivelk.com.br/"/>
+        <meta property="fb:admins" content="767933299961143"/>
 	<!--ferramentas google-->
         <?php require_once "analyticstracking.php";?>
 	<!-- -->

@@ -12,7 +12,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!--css-->
-        <link rel="stylesheet" href="sass/page/admIndex.css"/>
+        <link rel="stylesheet" href="sass/page/adm.index.css"/>
         <link rel="stylesheet" href="../sass/componentes/font-awesome-4.7.0/css/font-awesome.min.css"/>
         <script src="js/script.js"></script>
         <title>Admistrador | Nivelk</title>
@@ -27,7 +27,7 @@
                         <div class="w-100"></div>
                         <div class="col">
                             <fieldset>
-                                <form class="form-group" action="adm.class.php" method="post">
+                                <form class="form-group" action="acesso.adm.php" method="post">
                                     <label for="IdUsuario">
                                         <i class="fa fa-user-o fa-1x" aria-hidden="true"></i>&nbsp;Usuario
                                     </label>

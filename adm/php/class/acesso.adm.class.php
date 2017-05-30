@@ -2,17 +2,19 @@
     require_once "php/abstracts/acesso.class.abstract.php";
     
     class AcessoAdm extends Acesso{
+        private $banco;
         
-        public function __construct($usuario,$senha){
-            parent::__construct($usuario,$senha);
+        public function __construct($usuario,$senha,$dados){
+            parent::__construct($usuario,$senha,$dados);
         }
         
-        //Metodos especiais
+        //METODOS ESPECIAIS 
+        public function banco($banco){
+            $this->banco = $banco;
+        }
         public function acessar(){
             
-            require_once "configAdm.php";
-            
-            $check = $con->query("SELECT * FROM administrado WHERE usuario = '{$this->getUsuario()}' AND senha= '{$this->getSenha()}'");
+            $check = $this->banco->query("SELECT * FROM administrado WHERE usuario = '{$this->getUsuario()}' AND senha= '{$this->getSenha()}'");
             $adm = $check->fetch_row();
             
             if($check->num_rows == true){

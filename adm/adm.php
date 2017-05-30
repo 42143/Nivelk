@@ -3,7 +3,7 @@
     if($_SESSION["id_adm"] == false){
         header("location:index.php");
     }
-    require_once "php/class/configAdm.php";
+    require_once "../config.php";
 ?>
 <!doctype html>
 <html lang="br">
@@ -57,7 +57,7 @@
                             <div class="col">
                                 <h3>Palavra chave</h3>
                                 <fieldset>
-                                    <form class="form-group" action="Adicionar.chaves.php" method="post">
+                                    <form class="form-group" action="adicionar.chaves.php" method="post">
                                         <label for="keyWordId">Coloque à palavra chave</label>
                                         <input type="text" name="chaves" class="form-control" id="keyWordId" placeholder="palavra chave"/>
                                         <input type="submit" class="btn btn-outline-primary btn-block" value="Adicionar palavra"/>
@@ -82,7 +82,7 @@
                             <div class="col">
                                 <h3>Descrição</h3>
                                 <fieldset>
-                                    <form class="form-group" action="descricao.class.php" method="post">
+                                    <form class="form-group" action="descricao.php" method="post">
                                         <label for="">Coloque à descrição</label>
                                         <?php 
                                             $descricao = $con->query("SELECT * FROM descricao");
@@ -104,7 +104,7 @@
                             <div class="col">
                                 <h3>Excluir Administrador</h3>
                                 <fieldset>
-                                    <form class="form-group" action="excluirAdmin.php" method="post">
+                                    <form class="form-group" action="excluir.admin.php" method="post">
                                         <label for="excluirAdmin">Selecionar o usuario para excluir</label>
                                         <select class="form-control" name="excluirAdmin">
                                             <option>Selecionar Administrado</option>
@@ -122,7 +122,7 @@
                             <div class="col">
                                 <h3>Adicionar Administrador</h3>
                                 <fieldset>
-                                    <form class="form-group" action="adicionarAdmin.php" method="post">
+                                    <form class="form-group" action="adicionar.admin.php" method="post">
                                         <label for="adicionarAdmin">Coloque usuario e senha para adiciona</label>
                                         <input type="text" name="usuario" class="form-control" placeholder="usuario"/>
                                             <br>
@@ -147,7 +147,7 @@
                     <div class="col-4">
                         <i class="fa fa-user-o fa-1x" aria-hidden="true"></i>
                         <span><?php echo $_SESSION["usuario"]; ?></span>
-                        <a class="btn btn-outline-secondary" role="button" href="sairAdm.php">Sair</a>
+                        <a class="btn btn-outline-secondary" role="button" href="sair.adm.php">Sair</a>
                     </div>
                 </div>
             </div>
