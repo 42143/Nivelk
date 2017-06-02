@@ -1,3 +1,9 @@
 # Não remova esta linha ou as regras do mod_rewrite e os URLs amigáveism para os motores de busca deixarão de funcionar
-RewriteBase /
+    <IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteBase /
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule .(/)?$/index.php [NC,L]
+    </IfModule>
 
