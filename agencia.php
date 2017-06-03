@@ -37,14 +37,14 @@
                             <div class="w-100"></div>
                             <div class="col-8 intro">
                             <p>Somos uma Agência digital focado no atendimento e no trabalho, fazendo o seu negócio ou seu produto ter sucesso no mercador, por causa disso tratamos cada cliente com atendimento de forma única e especial, des de 2014 desevolvendo web sites com time Nivelk e mostrando nossa excelência no mercador do ramo digital e marketing em São Paulo.</p>
-                                <p>A diretoria conta com dois socios, sendo eles Aslan Kelvin e Wesley Gonçalves e mas os contribuintes para desenvolver um agência de qualidade para você.</p>
+                                <p>A diretoria conta com dois socios, sendo eles Aslan Kelvin e Wesley Gonçalves e mais os contribuintes para desenvolver um agência de qualidade para você.</p>
                                 <br>
-                                <i class="fa fa-flag-o fa-2x" aria-hidden="true">&nbsp;Fundação</i>
-                                <p>21 de outubro de 2014</p>
+                                <i class="fa fa-flag-o fa-1x" aria-hidden="true"></i>
+                                Fundado em 21 de outubro de 2014.
                             </div>
                             <div class="col-4 intro">
                                 <i class="fa fa-bullseye fa-2x" aria-hidden="true">&nbsp;Missão</i>
-                                <p>Nosso objetivo é presta serviços de qualidade com melhor desempenho,buscamos crescer junto com os nossos clientes firmando uma relação sólida de amizade e confiança.</p>
+                                <p>Nosso objetivo é presta serviços de qualidade com melhor desempenho, buscamos crescer junto com os nossos clientes firmando uma relação sólida de amizade e confiança.</p>
                                 <br>
                                 <i class="fa fa-eye fa-2x" aria-hidden="true">&nbsp;Visão</i>
                                 <p>Sermos reconhecidos em todo Brasil devido a qualidade, atendimento e satisfação dos nossos clientes</p>
@@ -58,7 +58,7 @@
                         <div class="row">
                             <div class="col"></div>
                             <div class="w-100"></div>
-                            <div class="col block">
+                            <div class="col-7 block">
                                 <h3>Contato</h3>
                                 <from class="group">
                                     <label for="nomeId">
@@ -85,18 +85,16 @@
                                     <input type="submit" class="btn btn-outline-primary btn-block"/>
                                 </from>
                             </div>
-                            <div class="col block">
-                                <center>
-                                    <h3>Telefones da Nivelk</h3>
-                                </center>    
-                                <h4>
-                                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                                    Telefone - 1: (11) 996968-5240
-                                </h4>
-                                <h4>
-                                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                                    Telefone - 2: (11) 98218-1224
-                                </h4>
+                            <div class="col-5 block">
+                                <i class="fa fa-envelope-o fa-1x" aria-hidden="true"></i>&nbsp;contato.nivelk@gmail.com
+                                <br>
+                                <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>&nbsp;(11) 996968-5240&nbsp;
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                <br>
+                                <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>&nbsp;(11) 98218-1224&nbsp;
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                <br>
+                                <i class="fa fa-location-arrow" aria-hidden="true"></i>&nbsp;Rua itajuíbe, 28 - Sala 1 - Itaim Paulista <br>São paulo CEP: 08142-015
                             </div>
                         </div>
                     </div>

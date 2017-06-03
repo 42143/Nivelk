@@ -36,3 +36,32 @@
                         }
                     }
                 }//--screen4
+//MEDIA BREAKPOINT GRID
+    $xs: 0;
+    $sm: 575px;
+    $md: 767px;
+    $lg: 991px;
+    $xl: 1199px;
+    @media(min-width: $xs) and (max-width: $lg){
+        html{font-family:arial;}
+            body{background:$CORCINZA;}
+                .main{
+                    .screen4{
+                        .top{}
+                        .container-fluid{
+                            .row{
+                                .col{
+                                    .nivelk{padding-top:1px;padding-bottom:5px;
+                                    img{display:none;}
+                                    .nivelk{display:none;}
+                                    }
+                                    .col-3{padding-top:auto;
+                                        a{margin-left:auto;margin-right:auto;}
+                                    }
+                                    .col-5{display:none;}
+                                }
+                            }
+                        }
+                    }//--screen4
+                }//--main                
+    }//--@media 

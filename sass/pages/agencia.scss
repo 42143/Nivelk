@@ -31,10 +31,32 @@
                 }
             }
         }//--screen1
-        .screen2{background:$CORCINZA;}
+        .screen2{background:$CORCINZA;
+            .container{
+                .col-7{
+                    .btn-outline-primary{color:$CorPreto;border-color:$CorPreto;}
+                    .btn-outline-primary:hover{color:$CorCinza;background:$CorCinzaEscuro;}
+                }
+                .col-5{padding-left:50px;padding-top:70px;}
+            }
+        }//--screen2
         @import "../layout/footer";//--screen4
         
     }//--main
 
 //HEADER
-    @import "../layout/header.css";
+    @import "../layout/header";
+//MEDIA BREAKPOINT GRID
+    $xs: 0;
+    $sm: 575px;
+    $md: 767px;
+    $lg: 991px;
+    $xl: 1199px;
+    @media(min-width: $xs) and (max-width: $lg){
+        html{font-family:arial;}
+            body{background:$CORCINZA;}
+                .main{
+                    .screen1{ }//--screen1
+                    .screen2{}//--screen2
+                }//--main                
+    }//--@media 

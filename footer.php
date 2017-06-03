@@ -57,14 +57,23 @@
                                     </a>    
                                 </div>
                                 <div class="col-5 block">
-                                    <form class="form-group">
-                                        <label for="Newsletter">
-                                            <i class="fa fa-list-alt fa-lg" aria-hidden="true"></i>
-                                            Recebar nosso Newsletter
-                                        </label>
-                                        <input type="email" id="Newsletter" class="form-control" aria-describedby="emailHelp" placeholder="Digite seu email"/>
-                                        <button class="btn btn-outline-primary btn-block">Enviar</button>
-                                    </form>
+                                    <label for="Newsletter">
+                                         <i class="fa fa-list-alt fa-lg" aria-hidden="true"></i>
+                                        Recebar nosso Newsletter
+                                    </label>
+                                    <input type="email" id="Newsletter" class="form-control" aria-describedby="emailHelp" placeholder="Digite seu email"/>
+                                    <button class="btn btn-outline-primary btn-block btnNewsletter">Enviar</button>
+                                    <script>
+                                        $(function(){
+                                            $(".btnNewsletter").click(function(){
+                                                var newsletter = document.getElementById("Newsletter").value;
+                                                $.post("newsletter.php",{newsletter:newsletter},
+                                                      function call_back(data){
+                                                    $("body").html(data);
+                                                });
+                                            });
+                                        });
+                                    </script>
                                 </div>
                                 <div class="w-100"></div>
                                 <div class="col block">

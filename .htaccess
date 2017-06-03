@@ -1,9 +1,15 @@
-# Não remova esta linha ou as regras do mod_rewrite e os URLs amigáveism para os motores de busca deixarão de funcionar
-    <IfModule mod_rewrite.c>
-        RewriteEngine On
-        RewriteBase /
-        RewriteCond %{REQUEST_FILENAME} !-f
-        RewriteCond %{REQUEST_FILENAME} !-d
-        RewriteRule .(/)?$/index.php [NC,L]
-    </IfModule>
 
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /nivelk/
+    #RewriteRule ^index\.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteRule . /nivelk/index.php [L]
+    
+    RewriteRule ^nivelk/?$/index.php [NC,L]
+    RewriteRule ^agencia-nivelk/?$/agencia.php [NC,L]
+</IfModule>
+
+# END WordPress
