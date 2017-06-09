@@ -35,22 +35,34 @@
                 .row{background:$CorAzulEscuro;border-top:solid 1px $CORCINZA;margin-top:-16px;
                     .menuMobile{display:none;
                         ul{
-                            li{color:$CorAzulClaro;}
+                            li{
+                                a{color:$CorAzulClaro2;}
+                                a:hover{color:$CorAzulClaro;}
+                            }
                             li:nth-child(1){color:$CorCinza;font-weight:bold;}
                         }
                     }
                     .menuMobile:nth-child(1){
                         ul{
-                            li{color:$CorAmarelo;}
+                            li{
+                                a{color:$CorAmarelo;}
+                            }
                             li:nth-child(1){color:$CorCinza;font-weight:bold;}
-                            li:nth-child(6){color:$CorAzulClaro;}
-                            li:nth-child(7){color:$CorAzulClaro;}
+                            li:nth-child(5){
+                                a{color:$CorAzulClaro;}
+                            }
+                            li:nth-child(6){
+                                a{color:$CorAzulClaro;}
+                            }
                         }
                     }
                     .col{
                         ul{list-style-type:none;margin-bottom:10px;margin-top:10px;
-                            li{margin-top:5px;cursor:pointer;}
-                            li:hover{color:$CorAzulClaro;}
+                            li{margin-top:5px;cursor:pointer;
+                                a{color:$CorAzulClaro2;}
+                                a:hover{color:$CorAzulClaro;}
+                            }
+                            
                             li:nth-child(1){color:$CorCinza;font-weight:bold;cursor:context-menu;}
                         }
                     }

@@ -7,8 +7,14 @@
         protected function getDados(){
             return $this->dados;
         }
-        protected function setDados($dados){
+        public function setDados($dados){
             $this->dados = $dados;
+        }
+        private function getBanco(){
+            return $this->banco;
+        }
+        public function setBanco($banco){
+            $this->banco = $banco;
         }
         //METODOS ESPECIAIS 
         public function inseri(){

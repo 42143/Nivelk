@@ -19,6 +19,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!--Jquery-->
         <script src="js/common.js"></script>
+    <!--AngularJs-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<!--SEO-->
 		<meta name="author" content="Aslan Kelvin"/>
 		<meta name="classification" content="Agência digital"/>

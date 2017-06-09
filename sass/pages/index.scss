@@ -55,10 +55,10 @@
                     }
                 }//--screen3
                 
-                @import "../layout/footer"; //--screen4
+               @import "../layout/footer"; //--screen10
             }//--main
 //HEADER
-    @import "../layout/header";
+   @import "../layout/header";
 //MEDIA BREAKPOINT GRID
     $xs: 0;
     $sm: 575px;

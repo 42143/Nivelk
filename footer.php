@@ -1,4 +1,4 @@
- <div class="Screen screen4">
+ <div class="Screen screen10">
                 <div class="top">
                     <div class="container">
                         <div class="row">
@@ -62,17 +62,11 @@
                                         Recebar nosso Newsletter
                                     </label>
                                     <input type="email" id="Newsletter" class="form-control" aria-describedby="emailHelp" placeholder="Digite seu email"/>
-                                    <button class="btn btn-outline-primary btn-block btnNewsletter">Enviar</button>
-                                    <script>
-                                        $(function(){
-                                            $(".btnNewsletter").click(function(){
-                                                var newsletter = document.getElementById("Newsletter").value;
-                                                $.post("newsletter.php",{newsletter:newsletter},
-                                                      function call_back(data){
-                                                    $("body").html(data);
-                                                });
-                                            });
-                                        });
+                                    <button class="btn btn-outline-primary btn-block" onclick="NewsLetter();">Enviar</button>
+                                    <script type="text/javascript">
+                                        function NewsLetter(){
+                                                var emails = document.getElementById("Newsletter").value;
+                                        }
                                     </script>
                                 </div>
                                 <div class="w-100"></div>

@@ -4,8 +4,8 @@
             <div class="col-md content">
                 <a href="http://nivelk.com.br/index.php"><div class="nivelk">NIVELK</div></a>
                 <div class="menu_bar">
-                    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-                    <i class="fa fa-window-close-o fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-bars fa-2x menubar" aria-hidden="true"></i>
+                    <i class="fa fa-window-close-o fa-2x menubar" aria-hidden="true"></i>
                 </div>
                     <nav>
                         <ul>
@@ -16,7 +16,7 @@
                             </li>
                             <!--<li><a href="http://nivelk.com.br/portfolio.php">Portfólio</a></li>-->
                             <li><a href="http://nivelk.com.br/agencia.php">Agência</a></li>
-                            <li><a href="http://nivelkinfo.esy.es" target="_blank">Blog</a></li>
+                            <li><a href="http://nivelk.com.br/blog" target="_blank">Blog</a></li>
                             <li><a class="blue" href="http://nivelk.com.br/login.php">Faça login</a></li>
                             <li><a class="blue" href="http://nivelk.com.br/registro.php">Cadastre-se</a></li>
                            <button class="btn">ORÇAMENTO</button>
@@ -30,18 +30,18 @@
                     <ul>
                         <li>MENU</li>
                         <li></li>
-                        <li>Portfólio</li>
-                        <li>Agência</li>
-                        <li>Blog</li>
-                        <li>Faça login</li>
-                        <li>Cadastre-se</li>
+                        <!--<li>Portfólio</li>-->
+                        <li><a href="http://nivelk.com.br/agencia.php">Agência</a></li>
+                        <li><a href="http://nivelk.com.br/blog" target="_blank">Blog</a></li>
+                        <li><a class="blue" href="http://nivelk.com.br/login.php">Faça login</a></li>
+                        <li><a class="blue" href="http://nivelk.com.br/registro.php">Cadastre-se</a></li>
                     </ul>
                 </div>
                 <div class="col menuMobile">
                     <ul>
                         <li>SERVIÇOS</li>
                         <l1></l1>
-                        <li>Identidade Visual</li>
+                        <li><a href="http://nivelk.com.br/identidade.visual.php">Identidade Visual</a></li>
                         <li>Criação de Site</li>
                         <li>Marketing Digital</li>
                         <li>Suporte</li>
@@ -52,9 +52,9 @@
                     <ul>
                         <li>IDENTIDADE VISUAL</li>
                         <li></li>
-                        <li>Criação de Logotipo</li>
-                        <li>Identidade Visual</li>
-                        <li>Impressão</li>
+                        <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=logotipo">Criação de Logotipo</a></li>
+                        <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=visual">Identidade Visual</a></li>
+                        <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=impressao">Impressão</a></li>
                     </ul>
                 </div>
                     <div class="col">
