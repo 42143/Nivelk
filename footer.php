@@ -74,55 +74,55 @@
                                     <ul>
                                         <li>IDENTIDADE VISUAL</li>
                                         <li></li>
-                                        <li>Criação de Logotipo</li>
-                                        <li>Identidade Visual</li>
-                                        <li>Impressão</li>
+                                        <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=logotipo">Criação de Logotipo</a></li>
+                                        <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=visual">Identidade Visual</a></li>
+                                        <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=impressao">Impressão</a></li>
                                     </ul>
                                 </div>
                                     <div class="col block">
                                         <ul>
                                             <li>CRIAÇÂO DE SITE</li>
                                             <li></li>
-                                            <li>Criação de Site</li>
-                                            <li>Loja Virtual</li>
-                                            <li>Landing Page</li>
+                                            <li><a href="http://nivelk.com.br/criacao.site.php?criacao=site">Criação de Site</a></li>
+                                            <li><a href="http://nivelk.com.br/criacao.site.php?criacao=loja">Loja Virtual</a></li>
+                                            <li><a href="http://nivelk.com.br/criacao.site.php?criacao=landing">Landing Page</a></li>
                                         </ul>
                                      </div>    
                                     <div class="col block">    
                                         <ul>
                                             <li>MARKETING DIGITAL</li>
                                             <li></li>
-                                            <li>MDP</li>
-                                            <li>Otimização de sites SEO</li>
-                                            <li>Links Patrocinados</li>
-                                            <li>Mídias Sociais</li>
-                                            <li>E-mail Marketing</li>
+                                            <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=mdp">MDP</a></li>
+                                            <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=seo">Otimização de sites SEO</a></li>
+                                            <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=links">Links Patrocinados</a></li>
+                                            <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=midias">Mídias Sociais</a></li>
+                                            <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=email">E-mail Marketing</a></li>
                                         </ul>
                                      </div>
                                     <div class="col block">    
                                         <ul>
                                             <li>SUPORTE</li>
                                             <li></li>
-                                            <li>Gentão de Sites</li>
+                                            <li><a href="http://nivelk.com.br/suporte.php">Gentão de Sites</a></li>
                                         </ul>
                                      </div> 
                                     <div class="col block">    
                                         <ul>
                                             <li>SISTEMAS DE GENTÂO</li>
                                             <li></li>
-                                            <li>Sistema de Advocacia</li>
-                                            <li>Sistema de odontológico</li>
-                                            <li>Sistema para loja</li>
+                                            <li><a href="http://nivelk.com.br/sistemas.gentao.php?sistema=advocacia">Sistema de Advocacia</a></li>
+                                            <li><a href="http://nivelk.com.br/sistemas.gentao.php?sistema=odontologico">Sistema de odontológico</a></li>
+                                            <li><a href="http://nivelk.com.br/sistemas.gentao.php?sistema=loja">Sistema para loja</a></li>
                                         </ul>
                                      </div>    
                                     <div class="col menuMobile block">    
                                         <ul>
                                             <li>BRIEFING</li>
                                             <li></li>
-                                            <li>Briefing Logotipo</li>
-                                            <li>Briefing Site</li>
-                                            <li>Briefing Link Patrocinado</li>
-                                            <li>Briefing Loja Virtual</li>
+                                            <li><a href="http://nivelk.com.br/briefing.php?brienfing=logotipo">Briefing Logotipo</a></li>
+                                            <li><a href="http://nivelk.com.br/briefing.php?brienfing=site">Briefing Site</a></li>
+                                            <li><a href="http://nivelk.com.br/briefing.php?brienfing=links">Briefing Link Patrocinado</a></li>
+                                            <li><a href="http://nivelk.com.br/briefing.php?brienfing=loja">Briefing Loja Virtual</a></li>
                                         </ul>
                                      </div>
                                 </div> 

@@ -1,27 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
     <url>
         <loc>http://nivelk.com.br/</loc>
         <lastmod>2017-06-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    
     <url>
         <loc>http://nivelk.com.br/agencia.php</loc>
         <lastmod>2017-06-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/blog</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/login.php</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/registro.php</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
     <url>
         <loc>http://nivelk.com.br/identidade.visual.php</loc>
         <lastmod>2017-06-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/criacao.site.php</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/marketing.digital.php</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/suporte.php</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/sistemas.gentao.php</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
     <url>
         <loc>http://nivelk.com.br/identidade.visual.php?identidade=logotipo</loc>
         <lastmod>2017-06-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/identidade.visual.php?identidade=visual</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/identidade.visual.php?identidade=impressao</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/criacao.site.php?criacao=site</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/criacao.site.php?criacao=loja</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/criacao.site.php?criacao=landing</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/marketing.digital.php?marketing=mdp</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url> 
+    
+    <url>
+        <loc>http://nivelk.com.br/marketing.digital.php?marketing=seo</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/marketing.digital.php?marketing=links</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/marketing.digital.php?marketing=midias</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url> 
+    
+    <url>
+        <loc>http://nivelk.com.br/marketing.digital.php?marketing=email</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url> 
+    
+    <url>
+        <loc>http://nivelk.com.br/suporte.php</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+     <url>
+        <loc>http://nivelk.com.br/sistemas.gentao.php?sistema=advocacia</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url> 
+    
+    <url>
+        <loc>http://nivelk.com.br/sistemas.gentao.php?sistema=odontologico</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/sistemas.gentao.php?sistema=loja</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/briefing?logotipo</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/briefing?site</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/briefing?links</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://nivelk.com.br/briefing?loja</loc>
+        <lastmod>2017-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
 </urlset> 
