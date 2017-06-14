@@ -52,7 +52,8 @@
                                         if($_GET["identidade"] == "logotipo"){
                                             
                                             echo "<h2>CRIAÇÃO DE LOGOTIOPO</h2>";
-                                            $logo = 'disabled active';
+                                            $b1 = 'disabled active';
+                                            $d1 = 'block';
                                             $placeholder = 'Precisa de criação somente de um logotipo ou precisa de mais itens como cartão de visita, pasta, folhetos, etc... Descreva *';
                                             $col = "
                                                 <div class='col intro'>
@@ -65,12 +66,13 @@
                                         }elseif($_GET["identidade"] == "visual"){
                                             
                                             echo"<h2>CRIAÇÃO DE IDENTIDADE VISUAL</h2>";
-                                            $visual = 'disabled active';
-                                            
+                                            $b2 = 'disabled active';
+                                            $d1 = 'none';
                                         }elseif($_GET["identidade"] == "impressao"){
                                             
                                             echo"<h2>IMPRESSÃO</h2>";
-                                            $impressao = 'disabled active';
+                                            $b3 = 'disabled active';
+                                            $d1 = 'none';
                                             
                                         }else{
                                             
@@ -81,17 +83,17 @@
                             </div>
                             <div class="w-100"></div>
                             <div class="col block">
-                                <a href="http://nivelk.com.br/identidade.visual.php?identidade=logotipo" class="btn btn-outline-primary btn-block btn-lg <?php echo $logo; ?>" role="button" aria-pressed="true">
+                                <a href="http://nivelk.com.br/identidade.visual.php?identidade=logotipo" class="btn btn-outline-primary btn-block btn-lg <?php echo $b1; ?>" role="button" aria-pressed="true">
                                     CRIAÇÃO DE LOGOTIOPO
                                 </a>
                             </div>
                             <div class="col block">
-                                <a href="http://nivelk.com.br/identidade.visual.php?identidade=visual" class="btn btn-outline-primary btn-block btn-lg  <?php echo $visual; ?>" role="button" aria-pressed="true">
+                                <a href="http://nivelk.com.br/identidade.visual.php?identidade=visual" class="btn btn-outline-primary btn-block btn-lg  <?php echo $b2; ?>" role="button" aria-pressed="true">
                                     IDENTIDADE VISUAL
                                 </a>
                             </div>
                             <div class="col block">
-                                <a href="http://nivelk.com.br/identidade.visual.php?identidade=impressao" class="btn btn-outline-primary btn-block btn-lg  <?php echo $impressao; ?>" role="button" aria-pressed="true">
+                                <a href="http://nivelk.com.br/identidade.visual.php?identidade=impressao" class="btn btn-outline-primary btn-block btn-lg  <?php echo $b3; ?>" role="button" aria-pressed="true">
                                      IMPRESSÃO
                                 </a>
                             </div>
@@ -99,7 +101,24 @@
                     </div>
                 </div>
                 <div class="Screen screen2">
-                
+                    <div class="container">
+                        <div class="row" >
+                            <div class="col block" style="display:<?php echo $d1;?>;">
+                                <div class="row">
+                                    <div class="col">
+                                        <h1>Indispensável para seu produto empresa ou serviço</h1>
+                                        <p>Mas Afinal o que um Logotipo ?</p>
+                                        <p>Logotipo são formas ilustradas para representar um modelo de negócio, sendo considerado objeto que pode ser inserido em diversos meios de comunicação como Site, Materiais impressos comunicação visual associada ao negocio. Suas formas ilustradas em geral demostra Missão visual e valores de uma empresa sendo muito importante para o negocio, além de trazer mais credibilidade para as pessoas.</p>
+                                        <p>A importancia</p>
+                                        <p>Nos da Nivelk temos otimos profissionais capazes de criar marcas e Logotipo do inicio, aonde que iremos coletar dados da sua emrpresa, e elaborar modelos com baso no negócio, e manter da forma que o cliente determinar.</p>
+                                    </div>
+                                    <div class="col">
+                                      
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="Screen screen3" id="ScreenSoliciti">
                     <div class="container">
