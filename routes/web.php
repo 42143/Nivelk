@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/',['as'=>'index',function(){
     return view('index');
+}]);
+Route::get('/agencia',['as'=>'agencia',function(){
+    return view('agencia');
+}]);
+Route::group(['prefix'=>'identidade_visual'],function(){
+    Route::get('criacao_logotipo',['as'=>'identidade.logotipo',function(){
+        return view('criacao_logotipo');
+    }]);
 });
