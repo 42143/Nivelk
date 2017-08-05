@@ -241,7 +241,7 @@
                                     </li>
                                     <!--<li><a href="http://nivelk.com.br/portfolio.php">Portfólio</a></li>-->
                                     <li><a href="{{route('agencia')}}">Agência</a></li>
-                                    <li><a href="http://nivelk.com.br/blog" target="_blank">Blog</a></li>
+                                    <li><a href="{{route('blog')}}" target="_blank">Blog</a></li>
                                     <li><a class="blue" href="http://nivelk.com.br/login.php">Faça login</a></li>
                                     <li><a class="blue" href="http://nivelk.com.br/registro.php">Cadastre-se</a></li>
                                    <button class="btn">ORÇAMENTO</button>
@@ -257,7 +257,7 @@
                                 <li></li>
                                 <!--<li>Portfólio</li>-->
                                 <li><a href="{{route('agencia')}}">Agência</a></li>
-                                <li><a href="http://nivelk.com.br/blog" target="_blank">Blog</a></li>
+                                <li><a href="{{route('blog')}}" target="_blank">Blog</a></li>
                                 <li><a class="blue" href="http://nivelk.com.br/login.php">Faça login</a></li>
                                 <li><a class="blue" href="http://nivelk.com.br/registro.php">Cadastre-se</a></li>
                             </ul>
@@ -266,11 +266,11 @@
                             <ul>
                                 <li>SERVIÇOS</li>
                                 <l1></l1>
-                                <li><a href="http://nivelk.com.br/identidade.visual.php">Identidade Visual</a></li>
-                                <li><a href="http://nivelk.com.br/criacao.site.php">Criação de Site</a></li>
-                                <li><a href="http://nivelk.com.br/marketing.digital.php">Marketing Digital</a></li>
-                                <li><a href="http://nivelk.com.br/suporte.php">Suporte</a></li>
-                                <li><a href="http://nivelk.com.br/sistemas.gentao.php">Sistemas de Gentão</a></li>
+                                <li><a href="{{route('identidade.visual')}}">Identidade Visual</a></li>
+                                <li><a href="{{route('criacao.site')}}">Criação de Site</a></li>
+                                <li><a href="{{route('mkg.digital')}}">Marketing Digital</a></li>
+                                <li><a href="{{route('suporte')}}">Suporte</a></li>
+                                <li><a href="{{route('sistemas.gentao')}}">Sistemas de Gestão</a></li>
                             </ul>
                         </div>
                         <div class="col">
@@ -278,44 +278,44 @@
                                 <li>IDENTIDADE VISUAL</li>
                                 <li></li>
                                 <li><a href="{{route('identidade.logotipo')}}">Criação de Logotipo</a></li>
-                                <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=visual">Identidade Visual</a></li>
-                                <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=impressao">Impressão</a></li>
+                                <li><a href="{{route('identidade.visual')}}">Identidade Visual</a></li>
+                                <li><a href="{{route('identidade.impressao')}}">Impressão</a></li>
                             </ul>
                         </div>
                             <div class="col">
                                 <ul>
                                     <li>CRIAÇÂO DE SITE</li>
                                     <li></li>
-                                    <li><a href="http://nivelk.com.br/criacao.site.php?criacao=site">Criação de Site</a></li>
-                                    <li><a href="http://nivelk.com.br/criacao.site.php?criacao=loja">Loja Virtual</a></li>
-                                    <li><a href="http://nivelk.com.br/criacao.site.php?criacao=landing">Landing Page</a></li>
+                                    <li><a href="{{route('criacao.site')}}">Criação de Site</a></li>
+                                    <li><a href="{{route('criacao.virtual')}}">Loja Virtual</a></li>
+                                    <li><a href="{{route('criacao.page')}}">Landing Page</a></li>
                                 </ul>
                              </div>    
                             <div class="col">    
                                 <ul>
                                     <li>MARKETING DIGITAL</li>
                                     <li></li>
-                                    <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=mdp">MDP</a></li>
-                                    <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=seo">Otimização de sites SEO</a></li>
-                                    <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=links">Links Patrocinados</a></li>
-                                    <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=midias">Mídias Sociais</a></li>
-                                    <li><a href="http://nivelk.com.br/marketing.digital.php?marketing=email">E-mail Marketing</a></li>
+                                    <li><a href="{{route('mkg.digital')}}">MDP</a></li>
+                                    <li><a href="{{route('mkg.seo')}}">Otimização de sites SEO</a></li>
+                                    <li><a href="{{route('mkg.links')}}">Links Patrocinados</a></li>
+                                    <li><a href="{{route('mkg.midias')}}">Mídias Sociais</a></li>
+                                    <li><a href="{{route('mkg.email')}}">E-mail Marketing</a></li>
                                 </ul>
                              </div>    
                             <div class="col">    
                                 <ul>
                                     <li>SUPORTE</li>
                                     <li></li>
-                                    <li><a href="http://nivelk.com.br/suporte.php">Gentão de Sites</a></li>
+                                    <li><a href="{{route('suporte')}}">Gentão de Sites</a></li>
                                 </ul>
                              </div> 
                             <div class="col">    
                                 <ul>
-                                    <li>SISTEMAS DE GENTÂO</li>
+                                    <li>SISTEMAS DE GESTÂO</li>
                                     <li></li>
-                                    <li><a href="http://nivelk.com.br/sistemas.gentao.php?sistema=advocacia">Sistema de Advocacia</a></li>
-                                    <li><a href="http://nivelk.com.br/sistemas.gentao.php?sistema=odontologico">Sistema de odontológico</a></li>
-                                    <li><a href="http://nivelk.com.br/sistemas.gentao.php?sistema=loja">Sistema para loja</a></li>
+                                    <li><a href="{{route('sistemas.advocacia')}}">Sistema de Advocacia</a></li>
+                                    <li><a href="{{route('sistemas.odontologico')}}">Sistema de odontológico</a></li>
+                                    <li><a href="{{route('sistemas.loja')}}">Sistema para loja</a></li>
                                 </ul>
                              </div>    
                             <div class="col menuMobile">    

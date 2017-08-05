@@ -1,9 +1,7 @@
 @extends('layout.master')
-
 @section('style')
     <link rel="stylesheet" href="/css/pages/agencia.css"/>
 @endsection
-
 @section('main')
     <div class="Screen screen1">
                     <div class="container-fluid">
