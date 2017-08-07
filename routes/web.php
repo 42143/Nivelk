@@ -77,3 +77,17 @@ Route::group(['prefix'=>'sistemas-gentao'],function(){
         return view('stm_loja');
     }]);
 });
+Route::group(['prefix'=>'briefing'],function(){
+    Route::get('criacao-logotipo',['as'=>'bfg.logotipo',function(){
+        return view('briefing_logotipo');
+    }]);
+    Route::get('criacao-site',['as'=>'bfg.site',function(){
+        return view('briefing_site');
+    }]);
+    Route::get('loja-virtual',['as'=>'bfg.loja',function(){
+        return view('briefing_loja');
+    }]);
+    Route::get('links-patrocinados',['as'=>'bfg.links',function(){
+        return view('briefing_links');
+    }]);
+});

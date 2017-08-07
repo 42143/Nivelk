@@ -68,7 +68,7 @@
 		      <link rel="stylesheet" href="/css/pages/index.css"/>
             @show
         <link rel="stylesheet" href="/css/componentes/font-awesome-4.7.0/css/font-awesome.min.css"/>
-		<title>@yield('title','Agência Digital | Nivelk')</title>
+		<title>@yield('title','Agência Digital - Itaim Paulista | Nivelk')</title>
 	</head>
 	<body>
         <div class="main">
@@ -195,10 +195,10 @@
                                             <ul>
                                                 <li>BRIEFING</li>
                                                 <li></li>
-                                                <li><a href="http://nivelk.com.br/briefing.php?brienfing=logotipo">Briefing Logotipo</a></li>
-                                                <li><a href="http://nivelk.com.br/briefing.php?brienfing=site">Briefing Site</a></li>
-                                                <li><a href="http://nivelk.com.br/briefing.php?brienfing=links">Briefing Link Patrocinado</a></li>
-                                                <li><a href="http://nivelk.com.br/briefing.php?brienfing=loja">Briefing Loja Virtual</a></li>
+                                                <li><a href="{{route('bfg.logotipo')}}">Briefing Logotipo</a></li>
+                                                <li><a href="{{route('bfg.site')}}">Briefing Site</a></li>
+                                                <li><a href="{{route('bfg.links')}}">Briefing Link Patrocinado</a></li>
+                                                <li><a href="{{route('bfg.loja')}}">Briefing Loja Virtual</a></li>
                                             </ul>
                                          </div>
                                     </div> 
@@ -322,10 +322,10 @@
                                 <ul>
                                     <li>BRIEFING</li>
                                     <li></li>
-                                    <li><a href="http://nivelk.com.br/briefing.php?brienfing=logotipo">Briefing Logotipo</a></li>
-                                    <li><a href="http://nivelk.com.br/briefing.php?brienfing=site">Briefing Site</a></li>
-                                    <li><a href="http://nivelk.com.br/briefing.php?brienfing=links">Briefing Link Patrocinado</a></li>
-                                    <li><a href="http://nivelk.com.br/briefing.php?brienfing=loja">Briefing Loja Virtual</a></li>
+                                    <li><a href="{{route('bfg.logotipo')}}">Briefing Logotipo</a></li>
+                                    <li><a href="{{route('bfg.site')}}">Briefing Site</a></li>
+                                    <li><a href="{{route('bfg.links')}}">Briefing Link Patrocinado</a></li>
+                                    <li><a href="{{route('bfg.loja')}}">Briefing Loja Virtual</a></li>
                                 </ul>
                              </div>    
                     </div>
