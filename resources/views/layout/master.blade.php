@@ -20,20 +20,20 @@
 	<!--SEO-->
 		<meta name="author" content="Aslan Kelvin"/>
 		<meta name="classification" content="Agência digital"/>
-		<meta name="title" content="Agência Digital | Nivelk"/>
+		<meta name="title" content="Agência Digital - Itaim Paulista, SP | Nivelk"/>
 		<meta name="keywords" content=""/>
 		<meta name="description" content=""/>
-		<meta name="URL" content="http://nivelk.com.br/index.php"/>
+		<meta name="URL" content="http://nivelk.com.br/"/>
 		<meta name="language" content="pt-br"/>
 		<meta name="robots" content="index,follow"/>
 		<meta name="msnbot" content="all"/>
 		<meta name="googlebot" content="index,follow"/>
 	<!--Rede social: Facebook / open graph-->
 		<meta property="og:locale" content="pt_BR"/>
-        <meta property="og:url" content="http://nivelk.com.br/index.php"/>
+        <meta property="og:url" content="http://nivelk.com.br/"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Agência Digital | Nivelk"/>
-        <meta property="og:image" content="img/logo_nivelk.png"/>
+        <meta property="og:image" content="{{url('img/logo_nivelk.png')}}"/>
         <meta property="og:description" content=""/>
         <meta property="og:site_name" content="Agência digital Nivelk"/>
         <meta property="article:author" content="https://www.facebook.com/aslan.kelvingama"/>
@@ -68,7 +68,7 @@
 		      <link rel="stylesheet" href="/css/pages/index.css"/>
             @show
         <link rel="stylesheet" href="/css/componentes/font-awesome-4.7.0/css/font-awesome.min.css"/>
-		<title>@yield('title','Agência Digital - Itaim Paulista | Nivelk')</title>
+		<title>@yield('title','Agência Digital - Itaim Paulista, SP | Nivelk')</title>
 	</head>
 	<body>
         <div class="main">
@@ -115,7 +115,7 @@
                             <div class="col">
                                 <div class="row">
                                     <div class="col-4 nivelk block">
-                                        <img src="/img/logo_nivelk.png" alt="logotipo da Nivelk"/>
+                                        <img src="{{url('/img/logo_nivelk.png')}}" alt="logotipo da Nivelk"/>
                                         <div class="nivelk">NIVELK</div>
                                     </div>
                                     <div class="col-3 block">
@@ -128,7 +128,7 @@
                                         <a href="https://www.linkedin.com/company/nivelk" target="_blank">
                                             <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
                                         </a>
-                                        <a href="" target="_blank">
+                                        <a href="https://github.com/Nivelk" target="_blank">
                                             <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
                                         </a>    
                                     </div>
@@ -150,18 +150,18 @@
                                         <ul>
                                             <li>IDENTIDADE VISUAL</li>
                                             <li></li>
-                                            <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=logotipo">Criação de Logotipo</a></li>
-                                            <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=visual">Identidade Visual</a></li>
-                                            <li><a href="http://nivelk.com.br/identidade.visual.php?identidade=impressao">Impressão</a></li>
+                                            <li><a href="{{route('identidade.logotipo')}}">Criação de Logotipo</a></li>
+                                            <li><a href="{{route('identidade.visual')}}">Identidade Visual</a></li>
+                                            <li><a href="{{route('identidade.impressao')}}">Impressão</a></li>
                                         </ul>
                                     </div>
                                         <div class="col block">
                                             <ul>
                                                 <li>CRIAÇÂO DE SITE</li>
                                                 <li></li>
-                                                <li><a href="http://nivelk.com.br/criacao.site.php?criacao=site">Criação de Site</a></li>
-                                                <li><a href="http://nivelk.com.br/criacao.site.php?criacao=loja">Loja Virtual</a></li>
-                                                <li><a href="http://nivelk.com.br/criacao.site.php?criacao=landing">Landing Page</a></li>
+                                                <li><a href="{{route('criacao.site')}}">Criação de Site</a></li>
+                                                <li><a href="{{route('criacao.virtual')}}">Loja Virtual</a></li>
+                                                <li><a href="{{route('criacao.page')}}">Landing Page</a></li>
                                             </ul>
                                          </div>    
                                         <div class="col block">    
@@ -241,9 +241,8 @@
                                     </li>
                                     <!--<li><a href="http://nivelk.com.br/portfolio.php">Portfólio</a></li>-->
                                     <li><a href="{{route('agencia')}}">Agência</a></li>
-                                    <li><a href="{{route('blog')}}" target="_blank">Blog</a></li>
-                                    <li><a class="blue" href="http://nivelk.com.br/login.php">Faça login</a></li>
-                                    <li><a class="blue" href="http://nivelk.com.br/registro.php">Cadastre-se</a></li>
+                                    <li><a href="{{--route('blog')--}}" target="_blank">Blog</a></li>
+                                    <li><a class="blue" href="{{route('painelCliente')}}">Painel do Cliente</a></li>
                                    <button class="btn">ORÇAMENTO</button>
                                 </ul>
                             </nav>
@@ -257,9 +256,8 @@
                                 <li></li>
                                 <!--<li>Portfólio</li>-->
                                 <li><a href="{{route('agencia')}}">Agência</a></li>
-                                <li><a href="{{route('blog')}}" target="_blank">Blog</a></li>
-                                <li><a class="blue" href="http://nivelk.com.br/login.php">Faça login</a></li>
-                                <li><a class="blue" href="http://nivelk.com.br/registro.php">Cadastre-se</a></li>
+                                <li><a href="{{--route('blog')--}}" target="_blank">Blog</a></li>
+                                <li><a class="blue" href="{{route('painelCliente')}}">Painel do Cliente</a></li>
                             </ul>
                         </div>
                         <div class="col menuMobile">

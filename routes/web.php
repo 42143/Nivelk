@@ -11,19 +11,13 @@
 |
 */
 
-Route::get('/',['as'=>'index',function(){
-    return view('index');
-}]);
-Route::get('/agencia',['as'=>'agencia',function(){
-    return view('agencia');
-}]);
-Route::get('/blog',['as'=>'blog',function(){
-    return view('blog');
-}]);
-Route::get('/suporte',['as'=>'suporte',function(){
-    return view('suporte');
-}]);
+Route::get('/',['as'=>'index','uses' => 'RouteController@pageIndex']);
+Route::get('/agencia',['as'=>'agencia', 'uses' => 'RouteController@pageAgency']);
+Route::get('/suporte',['as'=>'suporte', 'uses' => 'RouteController@pageSupport']);
+Route::get('/painel-cliente',['as'=>'painelCliente', 'uses' => 'RouteController@pagePanelClient']);
+
 Route::group(['prefix'=>'identidade-visual'],function(){
+    Route::resource('identidade-visual',[]);
     Route::get('criacao-logotipo',['as'=>'identidade.logotipo',function(){
         return view('identidade_logotipo');
     }]);
