@@ -18,4 +18,7 @@ class RouteController extends Controller
     public function pagePanelClient(){
          return view('painel_cliente');
     }
+    public function pageIdentityLogo(){
+         return view('identity.identidade_logotipo');
+    }
 }

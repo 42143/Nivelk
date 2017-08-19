@@ -16,16 +16,14 @@ Route::get('/agencia',['as'=>'agencia', 'uses' => 'RouteController@pageAgency'])
 Route::get('/suporte',['as'=>'suporte', 'uses' => 'RouteController@pageSupport']);
 Route::get('/painel-cliente',['as'=>'painelCliente', 'uses' => 'RouteController@pagePanelClient']);
 
+
 Route::group(['prefix'=>'identidade-visual'],function(){
-    Route::resource('identidade-visual',[]);
-    Route::get('criacao-logotipo',['as'=>'identidade.logotipo',function(){
-        return view('identidade_logotipo');
-    }]);
+    Route::get('criacao-logotipo',['as'=>'identidade.logotipo', 'uses' => 'RouteController@pageIdentityLogo']);
     Route::get('',['as'=>'identidade.visual',function(){
-        return view('identidade_visual');
+        return view('identity.identidade_visual');
     }]);
     Route::get('impressao',['as'=>'identidade.impressao',function(){
-        return view('identidade_impressao');
+        return view('identity.identidade_impressao');
     }]);
     
 });
